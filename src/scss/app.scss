@@ -1,0 +1,20 @@
+@import 'node_modules/bourbon/core/bourbon';
+@import 'base/base';
+
+.wrapper {
+    max-width: 60em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2em 2em;
+}
+
+.enter-time {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.timepicker {
+    flex-grow: 0.7;
+}

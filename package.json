@@ -1,0 +1,26 @@
+{
+  "name": "worldchamptimes",
+  "version": "1.0.0",
+  "description": "times for gymnastics world championships 2018",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel ./src/index.html"
+  },
+  "author": "lukewiwa",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.10.3",
+    "parcel-plugin-sw-precache": "^1.0.1",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "sass": "^1.14.3"
+  },
+  "dependencies": {
+    "bourbon": "^5.1.0",
+    "moment": "^2.22.2",
+    "moment-timezone": "^0.5.21",
+    "react-moment": "^0.8.2",
+    "react-timezone": "^2.1.0"
+  }
+}

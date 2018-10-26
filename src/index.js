@@ -7,7 +7,6 @@ import './scss/app.scss'
 // main app
 import App from './App'
 
-registerServiceWorker('./service-worker.js')
 
 ReactDOM.render((
   <div className="wrapper">

@@ -47,7 +47,6 @@ function Session(props) {
     <tr key={props.time}>
       <td>
         <Moment
-          parse="YYYY-MM-DD HH:mm+Z"
           format="DD MMM HH:mm"
           tz={props.tz}>{props.time}</Moment></td>
       <td>{props.event}</td>

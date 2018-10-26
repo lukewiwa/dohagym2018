@@ -47,7 +47,6 @@ function Session(props) {
     <tr key={props.time}>
       <td>
         <Moment
-          parse="YYYY-MM-DD HZ"
           format="DD MMM HH:mm"
           tz={props.tz}>{props.time}</Moment></td>
       <td>{props.event}</td>
@@ -80,14 +79,14 @@ class App extends Component {
     ]
     const day2 = [
       { time: "2018-10-26T09:00+0300", event: "Qualification", gender: "MAG" },
-      { time: "2018-10-26T11:30+0300", event: "Qualification", gender: "MAG" },
+      { time: "2018-10-26T11:30+0300", event: "Aussie Boys!", gender: "MAG" },
       { time: "2018-10-26T14:30+0300", event: "Qualification", gender: "MAG" },
       { time: "2018-10-26T17:00+0300", event: "Qualification", gender: "MAG" },
       { time: "2018-10-26T19:30+0300", event: "Qualification", gender: "MAG" },
     ]
     const day3 = [
       { time: "2018-10-27T09:00+0300", event: "Qualification", gender: "WAG" },
-      { time: "2018-10-27T11:30+0300", event: "Qualification", gender: "WAG" },
+      { time: "2018-10-27T11:30+0300", event: "Aussie Girls!", gender: "WAG" },
       { time: "2018-10-27T14:30+0300", event: "Qualification", gender: "WAG" },
       { time: "2018-10-27T17:00+0300", event: "Qualification", gender: "WAG" },
       { time: "2018-10-27T19:30+0300", event: "Qualification", gender: "WAG" },

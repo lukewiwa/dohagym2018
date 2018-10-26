@@ -71,59 +71,59 @@ class App extends Component {
 
   render() {
     const day1 = [
-      { time: "2018-10-25 08:30+3", event: "Opening Ceremony", gender: "" },
-      { time: "2018-10-25 09:00+3", event: "Qualification", gender: "MAG" },
-      { time: "2018-10-25 11:30+3", event: "Qualification", gender: "MAG" },
-      { time: "2018-10-25 14:30+3", event: "Qualification", gender: "MAG" },
-      { time: "2018-10-25 17:00+3", event: "Qualification", gender: "MAG" },
-      { time: "2018-10-25 19:30+3", event: "Qualification", gender: "MAG" },
+      { time: "2018-10-25T08:30+0300", event: "Opening Ceremony", gender: "" },
+      { time: "2018-10-25T09:00+0300", event: "Qualification", gender: "MAG" },
+      { time: "2018-10-25T11:30+0300", event: "Qualification", gender: "MAG" },
+      { time: "2018-10-25T14:30+0300", event: "Qualification", gender: "MAG" },
+      { time: "2018-10-25T17:00+0300", event: "Qualification", gender: "MAG" },
+      { time: "2018-10-25T19:30+0300", event: "Qualification", gender: "MAG" },
     ]
     const day2 = [
-      { time: "2018-10-26 09:00+3", event: "Qualification", gender: "MAG" },
-      { time: "2018-10-26 11:30+3", event: "Qualification", gender: "MAG" },
-      { time: "2018-10-26 14:30+3", event: "Qualification", gender: "MAG" },
-      { time: "2018-10-26 17:00+3", event: "Qualification", gender: "MAG" },
-      { time: "2018-10-26 19:30+3", event: "Qualification", gender: "MAG" },
+      { time: "2018-10-26T09:00+0300", event: "Qualification", gender: "MAG" },
+      { time: "2018-10-26T11:30+0300", event: "Qualification", gender: "MAG" },
+      { time: "2018-10-26T14:30+0300", event: "Qualification", gender: "MAG" },
+      { time: "2018-10-26T17:00+0300", event: "Qualification", gender: "MAG" },
+      { time: "2018-10-26T19:30+0300", event: "Qualification", gender: "MAG" },
     ]
     const day3 = [
-      { time: "2018-10-27 09:00+3", event: "Qualification", gender: "WAG" },
-      { time: "2018-10-27 11:30+3", event: "Qualification", gender: "WAG" },
-      { time: "2018-10-27 14:30+3", event: "Qualification", gender: "WAG" },
-      { time: "2018-10-27 17:00+3", event: "Qualification", gender: "WAG" },
-      { time: "2018-10-27 19:30+3", event: "Qualification", gender: "WAG" },
+      { time: "2018-10-27T09:00+0300", event: "Qualification", gender: "WAG" },
+      { time: "2018-10-27T11:30+0300", event: "Qualification", gender: "WAG" },
+      { time: "2018-10-27T14:30+0300", event: "Qualification", gender: "WAG" },
+      { time: "2018-10-27T17:00+0300", event: "Qualification", gender: "WAG" },
+      { time: "2018-10-27T19:30+0300", event: "Qualification", gender: "WAG" },
     ]
     const day4 = [
-      { time: "2018-10-28 09:00+3", event: "Qualification", gender: "WAG" },
-      { time: "2018-10-28 11:30+3", event: "Qualification", gender: "WAG" },
-      { time: "2018-10-28 14:30+3", event: "Qualification", gender: "WAG" },
-      { time: "2018-10-28 17:00+3", event: "Qualification", gender: "WAG" },
-      { time: "2018-10-28 19:30+3", event: "Qualification", gender: "WAG" },
+      { time: "2018-10-28T09:00+0300", event: "Qualification", gender: "WAG" },
+      { time: "2018-10-28T11:30+0300", event: "Qualification", gender: "WAG" },
+      { time: "2018-10-28T14:30+0300", event: "Qualification", gender: "WAG" },
+      { time: "2018-10-28T17:00+0300", event: "Qualification", gender: "WAG" },
+      { time: "2018-10-28T19:30+0300", event: "Qualification", gender: "WAG" },
     ]
     const day5 = [
-      { time: "2018-10-29 16:00+3", event: "Team Final", gender: "MAG" },
+      { time: "2018-10-29T16:00+0300", event: "Team Final", gender: "MAG" },
     ]
     const day6 = [
-      { time: "2018-10-30 16:00+3", event: "Team Final", gender: "WAG" },
+      { time: "2018-10-30T16:00+0300", event: "Team Final", gender: "WAG" },
     ]
     const day7 = [
-      { time: "2018-10-31 16:00+3", event: "AA Final", gender: "MAG" },
+      { time: "2018-10-31T16:00+0300", event: "AA Final", gender: "MAG" },
     ]
     const day8 = [
-      { time: "2018-11-01 16:00+3", event: "AA Final", gender: "WAG" },
+      { time: "2018-11-01T16:00+0300", event: "AA Final", gender: "WAG" },
     ]
     const day9 = [
-      { time: "2018-11-02 16:00+3", event: "Floor", gender: "MAG" },
-      { time: "2018-11-02 16:30+3", event: "Vault", gender: "WAG" },
-      { time: "2018-11-02 17:30+3", event: "Pommel Horse", gender: "MAG" },
-      { time: "2018-11-02 18:00+3", event: "Uneven Bars", gender: "WAG" },
-      { time: "2018-11-02 18:30+3", event: "Rings", gender: "MAG" },
+      { time: "2018-11-02T16:00+0300", event: "Floor", gender: "MAG" },
+      { time: "2018-11-02T16:30+0300", event: "Vault", gender: "WAG" },
+      { time: "2018-11-02T17:30+0300", event: "Pommel Horse", gender: "MAG" },
+      { time: "2018-11-02T18:00+0300", event: "Uneven Bars", gender: "WAG" },
+      { time: "2018-11-02T18:30+0300", event: "Rings", gender: "MAG" },
     ]
     const day10 = [
-      { time: "2018-11-02 16:00+3", event: "Vault", gender: "WAG" },
-      { time: "2018-11-02 16:30+3", event: "Balance Beam", gender: "WAG" },
-      { time: "2018-11-02 17:30+3", event: "Parallel Bars", gender: "MAG" },
-      { time: "2018-11-02 18:00+3", event: "Floor", gender: "WAG" },
-      { time: "2018-11-02 18:30+3", event: "High Bar", gender: "MAG" },
+      { time: "2018-11-02T16:00+0300", event: "Vault", gender: "WAG" },
+      { time: "2018-11-02T16:30+0300", event: "Balance Beam", gender: "WAG" },
+      { time: "2018-11-02T17:30+0300", event: "Parallel Bars", gender: "MAG" },
+      { time: "2018-11-02T18:00+0300", event: "Floor", gender: "WAG" },
+      { time: "2018-11-02T18:30+0300", event: "High Bar", gender: "MAG" },
     ]
 
     return [

@@ -38,4 +38,4 @@ var e;!function(t,n){"object"==typeof exports&&"object"==typeof module?module.ex
 },{"react":"1n8/","react-moment":"7xC8","moment":"a2/B","moment-timezone":"eLdy","react-timezone":"Xx9+"}],"Focm":[function(require,module,exports) {
 "use strict";var e=s(require("react")),r=s(require("react-dom")),t=require("./register-service-worker");require("./scss/app.scss");var a=s(require("./App"));function s(e){return e&&e.__esModule?e:{default:e}}(0,t.registerServiceWorker)("./service-worker.js"),r.default.render(e.default.createElement("div",{className:"wrapper"},e.default.createElement(a.default,null)),document.getElementById("app"));
 },{"react":"1n8/","react-dom":"NKHc","./register-service-worker":"F9yF","./scss/app.scss":"qlE7","./App":"lY9v"}]},{},["Focm"], null)
-//# sourceMappingURL=/src.83cab34f.map
+//# sourceMappingURL=/dohagym2018/src.83cab34f.map

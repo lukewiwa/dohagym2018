@@ -6,8 +6,7 @@
   "scripts": {
     "test": "jest",
     "start": "parcel ./src/index.html",
-    "build": "rm -r dist/*; parcel build ./src/index.html",
-    "deploy": "rm -r dist/*; parcel build ./src/index.html"
+    "build": "rm -r ./dist/* && cp ./src/CNAME ./dist/ && parcel build ./src/index.html"
   },
   "author": "lukewiwa",
   "license": "ISC",

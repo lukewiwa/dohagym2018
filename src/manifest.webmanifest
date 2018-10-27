@@ -2,7 +2,7 @@
     "name": "2018 World Champ Comp times",
     "short_name": "Comp Times",
     "lang": "en-AU",
-    "start_url": "/dohagym2018/",
+    "start_url": ".",
     "display": "standalone",
     "background_color": "#fff",
     "theme_color": "#9c110c",

@@ -1,12 +1,12 @@
 {
-  "name": "worldchamptimes",
+  "name": "dohagym2018 Session Times",
   "version": "1.0.0",
   "description": "times for gymnastics world championships 2018",
   "main": "index.js",
   "scripts": {
     "test": "jest",
     "start": "parcel ./src/index.html",
-    "build": "rm -r ./dist/* && parcel build ./src/index.html"
+    "build": "rm -r ./dist/* && parcel build ./src/index.html --public-url /dohagym2018/"
   },
   "author": "lukewiwa",
   "license": "ISC",
